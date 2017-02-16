@@ -1,7 +1,6 @@
 FizzBcrypt
 =======
-A simple library to encode and decode JSON Web Tokens (JWT) in PHP, based on firebase/jwt, add the decode() third param default 'HS256'
-(JWT 无状态 restful api 认证)
+a default php bcrypt for encrypt and decrypt(php使用bcrypt默认的加密和解密)
 
 Installation
 ------------

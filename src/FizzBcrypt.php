@@ -28,7 +28,7 @@ class FizzBcrypt
     }
 
     /**
-     * 解密
+     * 解密验证
      * @param $pwd  密码
      * @param $hash 加密后的hash值
      * @return bool
@@ -41,6 +41,7 @@ class FizzBcrypt
 
         $pwd = $pwd ? $pwd : self::$password;
 
+        // 验证
         $res = password_verify($pwd, $hash);
 
         return $res;

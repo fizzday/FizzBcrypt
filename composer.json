@@ -1,7 +1,7 @@
 {
     "name": "fizzday/fizzbcrypt",
     "description": "a default php bcrypt for encrypt and decrypt(php使用bcrypt默认的加密和解密)",
-    "homepage": "https://github.com/fizzday/fizzbcrypt",
+    "license": "MIT",
     "authors": [
         {
             "name": "Fizz",
@@ -9,12 +9,11 @@
             "role": "Developer"
         }
     ],
-    "require": { },
-    "require-dev": { },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Fizzday\\FizzBcrypt\\": "src/"
         }
-    },
-    "license": "MIT"
+    }
 }
+
